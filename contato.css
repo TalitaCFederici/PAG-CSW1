@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+padding: 0;
+list-style: none;
+text-decoration: none;
+font-family: 'Franklin Gothic Medium', bold, sans-serif;}
+
+.background {
+
+    .background {
+
+        background: linear-Gradient(rgba(0,0,0,801), rgba(225, 225, 225, 0.104)), url(IMG/fundo2.jpg);
+        background-size: cover; /* Faz a imagem cobrir todo o fundo */
+        background-position: center; 
+        width: 100%;
+        height: 100%;
+        z-index: 0;
+        position: fixed;
+        margin: 0;
+        }
+    }
+    header {
+
+        display: flex;
+        justify-content: space-around;
+        max-width: 100%;
+        align-items: center;
+        text-align: center;
+        padding-top: 5px;
+    }
+    
+    
+    .cabeca{
+    display: flex;
+    gap: 3rem;
+    font-weight: 250;
+    cursor: pointer;
+    font-size: 15px;
+    }
+    
+    .cabeca a{
+        display: flex;
+        gap: 3rem;
+        color: azure;
+    }
+    .cabeca a:hover{
+        color: rgb(13, 62, 19) ;
+        transition: 0.5s all;
+    }
+    
+    .botao{
+    
+        color: rgb(255, 255, 255);
+        background-color: transparent;
+        border-radius: 15px;
+        padding: 5px;
+        font-size: 12px;
+        width: 150px;
+        border: solid 2px rgb(13, 62, 19) ;
+        cursor: pointer;
+    }
+    
+    .botao:hover {
+    
+        background-color:rgb(13, 62, 19) ;
+        transition: 0.6s;
+        color: black;
+        cursor: pointer;
+    }
+    .container-texto {
+
+        padding: 60px 0 0 130px;
+    
+    }
+
+.contatinhos {
+    padding: 20px;
+    
+}
+
+h2, h3 {
+    color: #000000fb;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #cccccc68;
+    text-align: left;
+}
+
+th {
+    background: #0e421e;
+
+}
+
+@media screen and (max-width: 768px) {
+  
+
+    *{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        text-decoration: none;
+        font-family: 'Franklin Gothic Medium', bold, sans-serif;}
+  }
+  .background {
+
+    background: linear-Gradient(rgba(0,0,0,801), rgba(225, 225, 225, 0.104)), url(IMG/fundo2.jpg);
+    background-size: cover; /* Faz a imagem cobrir todo o fundo */
+    background-position: center; 
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    position: fixed;
+    margin: 0;
+    }
+
+    header {
+
+        display: flex;
+        justify-content: space-around;
+        max-width: 100%;
+        align-items: center;
+        text-align: center;
+        padding-top: 5px;
+    }
+    
+    
+    .cabeca{
+    display: flex;
+    gap: 3rem;
+    font-weight: 250;
+    cursor: pointer;
+    font-size: 15px;
+    }
+    
+    .cabeca a{
+        display: flex;
+        gap: 3rem;
+        color: azure;
+    }
+    .cabeca a:hover{
+        color: rgb(13, 62, 19) ;
+        transition: 0.5s all;
+    }
+    
+    .botao{
+    
+        color: rgb(255, 255, 255);
+        background-color: transparent;
+        border-radius: 15px;
+        padding: 5px;
+        font-size: 12px;
+        width: 150px;
+        border: solid 2px rgb(13, 62, 19) ;
+        cursor: pointer;
+    }
+    
+    .botao:hover {
+    
+        background-color:rgb(13, 62, 19) ;
+        transition: 0.6s;
+        color: black;
+        cursor: pointer;
+    }
+    .container-texto {
+
+        padding: 60px 0 0 130px;
+    color: aliceblue;
+    }
+.contatinhos {
+    padding: 20px;
+    
+}
+
+h2, h3 {
+    color: #fffffffb;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #cccccc68;
+    text-align: left;
+}
+
+th {
+    background: #0e421e;
+
+}
+.botao-enviar {
+    background-color: green; /* Cor de fundo verde */
+    color: white; /* Cor do texto branca */
+    padding: 3px 60px; /* Tamanho do botão */
+    border: none; /* Sem borda */
+    border-radius: 5px; /* Bordas arredondadas */
+    font-size: 16px; /* Tamanho da fonte */
+    cursor: pointer; /* Muda o cursor ao passar o mouse */
+    transition: background-color 0.3s; /* Transição suave */
+}
